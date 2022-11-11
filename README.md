@@ -6,3 +6,5 @@ If it founds a vehicle moment in any part of the city, it sends its location and
 
 #Technology stacks we are planning to use are :- ML (transfer learning), React JS, MERN Stack Development, etc
 
+Training 5500 vehicle images on google collab, trying to get maximum accuracy over hyper parameter tuning 
+
