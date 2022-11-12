@@ -56,9 +56,13 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! We are `} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <span className="tagline">Welcome to Lost&Found</span>
+                <h1>{`Hi! We  `} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
+                  <p>are here to help you. Hold your breath and be calm!!!</p>
+                  <p>
+                    Just lodge a complaint here and we will be scanning for your vehicle all over the city and help you to locate your vehicle.
+                    Go ahead quickly and lodge a complaint.
+                  </p>
                   <button onClick={() => console.log('connect')}>Lodge a Complaint<ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
