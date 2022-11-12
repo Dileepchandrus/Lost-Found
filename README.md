@@ -8,3 +8,6 @@ If it founds a vehicle moment in any part of the city, it sends its location and
 
 Training 5500 vehicle images on google collab, trying to get maximum accuracy over hyper parameter tuning 
 
+Retraining the data since the model is overfitted
+
+
