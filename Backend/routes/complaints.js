@@ -13,7 +13,7 @@ router.route('/add').post((req, res) => {
     const email = req.body.email;
     const phone = req.body.phone;
     const address = req.body.address;
-    const vehicleNumber = req.body.vehicleNumber;
+    const vehicleNumber = req.body.vehicleNumber.toUpperCase();
     const vehicleDescription = req.body.vehicleDescription;
   
     const newComplaint = new Complaint({
